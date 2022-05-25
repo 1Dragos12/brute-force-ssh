@@ -11,12 +11,14 @@ EN (+)To scan your ip class use the command:  ./go (here you will put the ip cla
    (!) The scan speed can be set from the "random" and "go" files on the row segment (./sshscan -H ips.lst -U user -t 22 -T 700) -T 700 here we can set the speed.
    (!) The archive can scan through any port in the "random" and "go" files on segments (././pscan2 $ 1 22) number 22 ie the port that can be modified and on the segment (./sshscan -H ips.lst - U user -t 22 -T 700) 22 other port that can be modified
    
-   ! Examples of commands : 
-     ./go 5.13
-     ./r
+! Examples of commands : 
+```bash
+  ./go 5.13
+  ./r
+```
    
    (~)Installation commands in Termux te android:
-
+```bash
 apt update
 apt upgrade
 pkg update
@@ -39,22 +41,25 @@ make
 make clean
 rm -rf *.o
 make
+```
      
 	 (~)The libssh2 installation command in Kali Linux
-	 
+```bash	 
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
+```
 
      (~)Orders for compiling and installing the archive
-	 
+```bash	 
 git clone https://github.com/1Dragos12/brute-force-ssh.git
 cd brute-force-ssh
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
 make
+```
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    
@@ -66,12 +71,14 @@ RO (+)Pentru a scana clasa voastra de ip folositi comanda:  ./go (aici veti pune
    (!)Viteza de scanare se poate seta din fisierele "random" si "go" pe segmentele (./sshscan -H ips.lst -U user -t 22 -T 700)  -T 700 aici putem seta viteza.
    (!)Arhiva poate scana prin orice port din fisierele "random" si "go" pe segmentele (././pscan2 $1 22) numarul 22 adica portul ce poate fi modificat si pe segmentul (./sshscan -H ips.lst -U user -t 22 -T 700) 22 alt port ce poate fi modificat 
    
-   ! Exemple de comenzi :
+  ! Exemple de comenzi :
+  ```bash
      ./go 5.13
      ./r
+   ```
    
    (~)Comenzi de instalare in Termux pe android:
-
+```bash
 apt update
 apt upgrade   
 pkg update
@@ -94,29 +101,32 @@ make
 make clean
 rm -rf *.o
 make
+```
 
 
 
    (~)Comanda de instalare libssh2 in Kali Linux
-
+```bash
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
+```
 
    (~)Comenzi de compilare si instalare a arhivei 
-   
+```bash   
 git clone https://github.com/1Dragos12/brute-force-ssh.git
 cd scan
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
 make
+```
 
    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-START COMPILED : python start-compiled.py
+START COMPILED : ```bash python start-compiled.py```
 &
-DELETE COMPILED : python delete-compiled.py
+DELETE COMPILED :```bash python delete-compiled.py```
