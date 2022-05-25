@@ -1,9 +1,3 @@
-
-
-  HI! 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Install on : gcc, g++, libssh2, make
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EN (+)To scan your ip class use the command:  ./go (here you will put the ip class for example 192.168)
    (+)To generate ip classes automatically and to scan them automatically use the command : ./r 
    (!)The ip list can be found in the file "ips.lst"
@@ -42,8 +36,8 @@ make clean
 rm -rf *.o
 make
 ```
-     
-	 (~)The libssh2 installation command in Kali Linux
+(~)The libssh2 installation command in Kali Linux
+	 
 ```bash	 
 apt-get update
 apt-get install libssh2-1-dev
@@ -51,7 +45,7 @@ apt-get install libssh2-1
 apt-get install git
 ```
 
-     (~)Orders for compiling and installing the archive
+ (~)Orders for compiling and installing the archive
 ```bash	 
 git clone https://github.com/1Dragos12/brute-force-ssh.git
 cd brute-force-ssh
